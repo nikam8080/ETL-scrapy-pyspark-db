@@ -13,4 +13,4 @@ class AudioDataItem(scrapy.Item):
     actual_price = scrapy.Field()
     offer_price = scrapy.Field()
     reviews_count = scrapy.Field()
-
+    audio_type = scrapy.Field()
