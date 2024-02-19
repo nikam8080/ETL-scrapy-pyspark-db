@@ -44,37 +44,6 @@ if __name__ == "__main__":
     logger.info("csv Schema:" +flipkartAudioDataDF.schema.simpleString())
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     # read_df = spark.read \
     #     .csv(csv_file_path, header=True ,inferSchema=True)
 
